@@ -400,7 +400,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 10vw;
+  padding: 100px 200px;
 }
 
 footer address {
