@@ -4,18 +4,14 @@ body {
     margin: 0px;
 }
 
-a {
-  color: #303030;
+a, p {
+  color: #808080;
 }
 
 h1, h2 {
   margin-bottom: 0;
   font-size: 1.2rem;
-  color: #303030;
-}
-
-p {
-  color: #303030;
+  color: #505050;
 }
 
 
@@ -45,7 +41,7 @@ header {
 
   text-decoration: none;
   font-size: 1.2rem;
-  color: #303030;
+  color: #505050;
   font-weight: bold;
   position: relative;
   padding: 0 25px; 
@@ -191,23 +187,24 @@ header {
   position: relative;
 }
 
-.twitter-container img {
-  margin-bottom: 15px;
-}
-
 .twitter-container h2 {
   letter-spacing: 0.1em;
 }
 
 .twitter-container h2 span {
-  color: #848789;
+  color: #808080;
   font-weight: 400;
   letter-spacing: 0.2em;
 }
 
 .twitter-container p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: italic;
+}
+
+
+.twitter-container img {
+  margin-bottom: 15px;
 }
 
 .tweet-dots {
@@ -222,7 +219,7 @@ header {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: solid 1px #a9afb3;
+  border: solid 1px #808080;
   margin: 4px;
 }
 
@@ -230,8 +227,8 @@ header {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #a9afb3;
-  border: 1px solid #a9afb3;
+  background-color: #808080;
+  border: 1px solid #808080;
   margin: 4px;
 }
 
@@ -326,7 +323,7 @@ header {
 
 .cta-button {
   color: #fff;
-  border: 1px solid #93979a;
+  border: 1px solid #C0C0C0;
   background: none;
   padding: 15px 50px;
   font-size: 0.875rem;
@@ -336,22 +333,17 @@ header {
 
 .cta-button:hover {
   background-color: #fff;
-  color: #282f35;
+  color: #303030;
   border-color: #fff;
   cursor: pointer;
 }
 
 .cta-button:active {
   background-color: #fff;
-  color: #282f35;
+  color: #303030;
   border-color: #fff;
   cursor: pointer;
   transform: scale(0.95);
-}
-
-.newsletter-section {
-  background-color: #fff;
-  padding: 110px 0;
 }
 
 .slogan {
@@ -359,29 +351,29 @@ header {
   margin: 24px 0;
 }
 
-.newsletter-flex-container {
+.newsletter-container {
   display: flex;
   width: 450px;
 }
 
-.newsletter-flex-container input {
+.newsletter-container input {
   flex: 1;
   margin-right: 5px;
-  border: 1px solid #d3d6d9;
+  border: 1px solid #808080;
   padding: 0 18px;
   color: #000;
 }
 
-.newsletter-flex-container input::placeholder {
-  color: #929292;
+.newsletter-container input::placeholder {
+  color: #808080;
   font-style: italic;
 }
 
-.newsletter-flex-container input:focus {
+.newsletter-container input:focus {
   outline-color: #64c29e;
 }
 
-.newsletter-flex-container button {
+.newsletter-container button {
   width: 100px;
   background-color: #64c29e;
   border: none;
@@ -394,11 +386,11 @@ header {
   transition: transform 0.1s;
 }
 
-.newsletter-flex-container button:hover {
+.newsletter-container button:hover {
   opacity: 0.7;
 }
 
-.newsletter-flex-container button:active {
+.newsletter-container button:active {
   opacity: 0.7;
   transform: scale(0.95);
 }
@@ -478,19 +470,19 @@ footer address span {
     display: none;
   }
 
-  .newsletter-flex-container {
+  .newsletter-container {
     display: flex;
     flex-direction: column;
     width: 300px;
   }
 
-  .newsletter-flex-container input {
+  .newsletter-container input {
     margin-bottom: 5px;
     margin-right: 0;
     padding: 20px;
   }
 
-  .newsletter-flex-container button {
+  .newsletter-container button {
     width: auto;
   }
 
